@@ -557,85 +557,86 @@
       ServiceDetailResType.ServiceParameterList = None;
   }
   
-  pub fn init_iso2_BodyType(BodyType: &mut iso2_BodyType){
+//   pub fn init_iso2_BodyType(BodyType: &mut iso2_BodyType){
       
-      BodyType.AuthorizationReq = None;
-      BodyType.AuthorizationRes = None;
-      BodyType.BodyElement = None;
-      BodyType.CableCheckReq = None;
-      BodyType.CableCheckRes = None;
-      BodyType.CertificateInstallationReq = None;
-      BodyType.CertificateInstallationRes = None;
-      BodyType.CertificateUpdateReq = None;
-      BodyType.CertificateUpdateRes = None;
-      BodyType.ChargeParameterDiscoveryReq = None;
-      BodyType.ChargeParameterDiscoveryRes = None;
-      BodyType.ChargingStatusReq = None;
-      BodyType.ChargingStatusRes = None;
-      BodyType.CurrentDemandReq = None;
-      BodyType.CurrentDemandRes = None;
-      BodyType.MeteringReceiptReq = None;
-      BodyType.MeteringReceiptRes = None;
-      BodyType.PaymentDetailsReq = None;
-      BodyType.PaymentDetailsRes = None;
-      BodyType.PaymentServiceSelectionReq = None;
-      BodyType.PaymentServiceSelectionRes = None;
-      BodyType.PowerDeliveryReq = None;
-      BodyType.PowerDeliveryRes = None;
-      BodyType.PreChargeReq = None;
-      BodyType.PreChargeRes = None;
-      BodyType.ServiceDetailReq = None;
-      BodyType.ServiceDetailRes = None;
-      BodyType.ServiceDiscoveryReq = None;
-      BodyType.ServiceDiscoveryRes = None;
-      BodyType.SessionSetupReq = None;
-      BodyType.SessionSetupRes = None;
-      BodyType.SessionStopReq = None;
-      BodyType.SessionStopRes = None;
-      BodyType.WeldingDetectionReq = None;
-      BodyType.WeldingDetectionRes = None;
-  }
+      
+//       BodyType.AuthorizationReq = None;
+//       BodyType.AuthorizationRes = None;
+//       BodyType.BodyElement = None;
+//       BodyType.CableCheckReq = None;
+//       BodyType.CableCheckRes = None;
+//       BodyType.CertificateInstallationReq = None;
+//       BodyType.CertificateInstallationRes = None;
+//       BodyType.CertificateUpdateReq = None;
+//       BodyType.CertificateUpdateRes = None;
+//       BodyType.ChargeParameterDiscoveryReq = None;
+//       BodyType.ChargeParameterDiscoveryRes = None;
+//       BodyType.ChargingStatusReq = None;
+//       BodyType.ChargingStatusRes = None;
+//       BodyType.CurrentDemandReq = None;
+//       BodyType.CurrentDemandRes = None;
+//       BodyType.MeteringReceiptReq = None;
+//       BodyType.MeteringReceiptRes = None;
+//       BodyType.PaymentDetailsReq = None;
+//       BodyType.PaymentDetailsRes = None;
+//       BodyType.PaymentServiceSelectionReq = None;
+//       BodyType.PaymentServiceSelectionRes = None;
+//       BodyType.PowerDeliveryReq = None;
+//       BodyType.PowerDeliveryRes = None;
+//       BodyType.PreChargeReq = None;
+//       BodyType.PreChargeRes = None;
+//       BodyType.ServiceDetailReq = None;
+//       BodyType.ServiceDetailRes = None;
+//       BodyType.ServiceDiscoveryReq = None;
+//       BodyType.ServiceDiscoveryRes = None;
+//       BodyType.SessionSetupReq = None;
+//       BodyType.SessionSetupRes = None;
+//       BodyType.SessionStopReq = None;
+//       BodyType.SessionStopRes = None;
+//       BodyType.WeldingDetectionReq = None;
+//       BodyType.WeldingDetectionRes = None;
+//   }
   
-  pub fn init_iso2_V2G_Message(V2G_Message: &mut iso2_V2G_Message){
+//   pub fn init_iso2_V2G_Message(V2G_Message: &mut iso2_V2G_Message){
       
-  }
+//   }
   
-  // init for fragment
-  pub fn init_iso2_exiFragment(exiFrag: &mut iso2_exiFragment){
+//   // init for fragment
+//   pub fn init_iso2_exiFragment(exiFrag: &mut iso2_exiFragment){
       
-      exiFrag.AuthorizationReq = None;
-      exiFrag.CertificateInstallationReq = None;
-      exiFrag.CertificateInstallationRes = None;
-      exiFrag.CertificateUpdateReq = None;
-      exiFrag.CertificateUpdateRes = None;
-      exiFrag.ChargeParameterDiscoveryRes = None;
-      exiFrag.MeteringReceiptReq = None;
-      exiFrag.SignedInfo = None;
-  }
+//       exiFrag.AuthorizationReq = None;
+//       exiFrag.CertificateInstallationReq = None;
+//       exiFrag.CertificateInstallationRes = None;
+//       exiFrag.CertificateUpdateReq = None;
+//       exiFrag.CertificateUpdateRes = None;
+//       exiFrag.ChargeParameterDiscoveryRes = None;
+//       exiFrag.MeteringReceiptReq = None;
+//       exiFrag.SignedInfo = None;
+//   }
   
-  // init for xmldsig fragment
-  pub fn init_iso2_xmldsigFragment(xmldsigFrag: &mut iso2_xmldsigFragment){
+//   // init for xmldsig fragment
+//   pub fn init_iso2_xmldsigFragment(xmldsigFrag: &mut iso2_xmldsigFragment){
       
-      xmldsigFrag.CanonicalizationMethod = None;
-      xmldsigFrag.DSAKeyValue = None;
-      xmldsigFrag.DigestMethod = None;
-      xmldsigFrag.KeyInfo = None;
-      xmldsigFrag.KeyValue = None;
-      xmldsigFrag.Object = None;
-      xmldsigFrag.PGPData = None;
-      xmldsigFrag.RSAKeyValue = None;
-      xmldsigFrag.Reference = None;
-      xmldsigFrag.RetrievalMethod = None;
-      xmldsigFrag.SPKIData = None;
-      xmldsigFrag.Signature = None;
-      xmldsigFrag.SignatureMethod = None;
-      xmldsigFrag.SignatureValue = None;
-      xmldsigFrag.SignedInfo = None;
-      xmldsigFrag.Transform = None;
-      xmldsigFrag.Transforms = None;
-      xmldsigFrag.X509Data = None;
-      xmldsigFrag.X509IssuerSerial = None;
-  }
+//       xmldsigFrag.CanonicalizationMethod = None;
+//       xmldsigFrag.DSAKeyValue = None;
+//       xmldsigFrag.DigestMethod = None;
+//       xmldsigFrag.KeyInfo = None;
+//       xmldsigFrag.KeyValue = None;
+//       xmldsigFrag.Object = None;
+//       xmldsigFrag.PGPData = None;
+//       xmldsigFrag.RSAKeyValue = None;
+//       xmldsigFrag.Reference = None;
+//       xmldsigFrag.RetrievalMethod = None;
+//       xmldsigFrag.SPKIData = None;
+//       xmldsigFrag.Signature = None;
+//       xmldsigFrag.SignatureMethod = None;
+//       xmldsigFrag.SignatureValue = None;
+//       xmldsigFrag.SignedInfo = None;
+//       xmldsigFrag.Transform = None;
+//       xmldsigFrag.Transforms = None;
+//       xmldsigFrag.X509Data = None;
+//       xmldsigFrag.X509IssuerSerial = None;
+//   }
   
   
   
