@@ -8,3 +8,4 @@ edition = "2021"
 [dependencies]
 arrayvec= "0.7.4"
 fixedvec = "0.2.4"
+exigen-core= {path ="/home/vijay/internship/exi/exigen-core"}
